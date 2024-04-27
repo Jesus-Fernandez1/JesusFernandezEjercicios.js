@@ -267,6 +267,31 @@ switch (operacion) {
         console.log("error")
 }
 
+//..... ejercicio 13....///
+
+let DatosDni = {
+    nombre: prompt("Ingrese su nombre"),
+    apellido: prompt("Ingrese su apellido"),
+    sexo: prompt("Ingrese su sexo"),
+    numeroDocumento: prompt("Ingrese su numéro de DNI"),
+    pais: prompt("Ingrese su pais natal"),
+    fechaNacimiento: prompt("Ingrese su fecha de nacimiento dd/mm/aaaa"),
+    lugarDeNacimiento: prompt("Ingrese su lugar de nacimiento"),
+    lugarDeExpedicion: prompt("Ingrese lugar de expedicion del documento"),
+    fechaDeExpedicion: prompt("Ingrese fecha de expedicion del documento dd/mm/aaaa")
+}
+let dni
+dni = " Nombre: " + DatosDni.nombre + " Apellido: " + DatosDni.apellido + " Sexo: " + DatosDni.sexo + " Numero de documento: " + DatosDni.numeroDocumento + " Pais: " + DatosDni.pais + " Fecha de nacimiento: " + DatosDni.fechaNacimiento + " Ciudad de nacimiento: " + DatosDni.lugarDeNacimiento + " Lugar de expedicion: " + DatosDni.lugarDeExpedicion + " Fecha de expedicion " + DatosDni.fechaDeExpedicion
+alert(dni)
+dni = confirm(" ¿ Estos son sus datos ingresados ?")
+if (dni == true) {
+    console.table(DatosDni)
+    alert("Su registro fue exitoso")
+} else {
+    console.log("Vuelve a intentarlo detro de 1 mes")
+    alert("Vuelve a intentarlo  dentro de 1 mes")
+}
+
 
 
 
