@@ -227,8 +227,6 @@
 // //---------ejercicio 13---------- //
 
 
-
-
 // //------ejercicio 14-----//
 // console.log("------- ejercicio 14------");
 
@@ -251,24 +249,24 @@
     
 // }
 
-// -------- ejercicio 16 ------//
-console.log("---------ejercicio 16-------");
+// // -------- ejercicio 16 ------//
+// console.log("---------ejercicio 16-------");
 
-let array16 = [35,22,5,9,15,28,39,67,2,6]
-orden = false;
-console.log(array16);
+// let array16 = [35,22,5,9,15,28,39,67,2,6]
+// orden = false;
+// console.log(array16);
 
-while (!orden) {
-    orden = true;
-    for (let i = 0; i < array16.length; i++) {
-        if (array16[i] < array16 [i - 1]) {
-            let temp = array16[i];
-            array16[i] = array16 [i - 1];
-            array16 [i - 1] = temp;
-            orden = false
+// while (!orden) {
+//     orden = true;
+//     for (let i = 0; i < array16.length; i++) {
+//         if (array16[i] < array16 [i - 1]) {
+//             let temp = array16[i];
+//             array16[i] = array16 [i - 1];
+//             array16 [i - 1] = temp;
+//             orden = false
             
-        }
+//         }
         
-    } console.log(array16);
+//     } console.log(array16);
     
-}
+// }
