@@ -124,7 +124,7 @@ buscar.addEventListener("keyup", (e) => {
 });
 
 
-let checkboxRealizadas = document.getElementById("flexSwitchCheckDefault");
+let checkboxRealizadas = document.getElementById("CheckDefault");
 
 checkboxRealizadas.addEventListener("change", () => {
     let estadoCheckbox = checkboxRealizadas.checked;
